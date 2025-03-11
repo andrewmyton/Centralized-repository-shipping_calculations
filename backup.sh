@@ -40,8 +40,8 @@ backupFileName=$("backup-[$currentTS].tar.gz")
 origAbsPath=`$([$pwd])`
 
 # [TASK 6]
-cd # <-
-destDirAbsPath=``
+cd $destinationDirectory # <- 
+destDirAbsPath=`$([$pwd])`
 
 # [TASK 7]
 cd # <-
